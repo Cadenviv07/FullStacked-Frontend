@@ -48,5 +48,6 @@ function AuthForm({type, onSubmit}){
         </form>
     );
 }
+
 export default AuthForm;
 
