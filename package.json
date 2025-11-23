@@ -6,7 +6,7 @@
     "axios": "^1.12.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^7.9.3",
+    "react-router-dom": "^7.9.6",
     "react-scripts": "5.0.1",
     "web-vitals": "^5.1.0"
   },
@@ -16,7 +16,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  
   "devDependencies": {
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.6",
