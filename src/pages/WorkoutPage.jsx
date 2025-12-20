@@ -4,10 +4,11 @@ import { useParams, Link } from "react-router-dom";
 function WorkoutPage() {
   const { id } = useParams();
 
+  const[workout, setWorkout] = useState(null);
   const[exercises, setExercises] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
-
+  
   useEffect(() => {
   
     setIsLoading(true);
